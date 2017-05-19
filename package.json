@@ -1,0 +1,48 @@
+{
+  "name": "loon-boilerplate",
+  "version": "0.0.1",
+  "description": "🌟  An loon framework boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev:start": "nodemon -e hbs,js,ejs index.js",
+    "dev:tsc": "tsc -w -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loon-project/loon-boilerplate.git"
+  },
+  "keywords": [
+    "loon",
+    "loon-framework",
+    "express",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "vincent.007.cn@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/loon-project/loon-boilerplate/issues"
+  },
+  "homepage": "https://github.com/loon-project/loon-boilerplate#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "loon": "^1.0.0-4",
+    "loon-data": "^0.1.0",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/express": "^4.0.35",
+    "@types/mocha": "^2.2.41",
+    "@types/moment": "^2.13.0",
+    "@types/winston": "^2.3.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  }
+}
