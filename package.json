@@ -27,8 +27,8 @@
   "homepage": "https://github.com/loon-project/loon-boilerplate#readme",
   "dependencies": {
     "lodash": "^4.17.4",
-    "loon": "^1.0.0-4",
-    "loon-data": "^0.1.0",
+    "loon": "^1.1.0",
+    "loon-data": "^0.2.0",
     "moment": "^2.18.1",
     "mysql": "^2.13.0",
     "winston": "^2.3.1"
