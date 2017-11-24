@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "dev:start": "nodemon -e hbs,js,ejs index.js",
+    "dev": "npm run dev:tsc | npm run dev:server",
+    "dev:server": "nodemon -e hbs,js,ejs index.js",
     "dev:tsc": "tsc -w -p ."
   },
   "repository": {
